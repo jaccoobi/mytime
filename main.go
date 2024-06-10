@@ -20,6 +20,6 @@ func main() {
   }
 
   t := time.Now().In(loc)
-  fmt.Println(t.Format(time.RFC850))
+  fmt.Println("Time: ", t.Format(time.RFC850))
 
 }
