@@ -21,5 +21,4 @@ func main() {
 
   t := time.Now().In(loc)
   fmt.Println("Time: ", t.Format(time.RFC850))
-
 }
